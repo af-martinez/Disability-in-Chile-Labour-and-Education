@@ -1,20 +1,16 @@
-# Macroeconomic-Indicators-Chile-2015---2026
-Inflation, unemployment, GDP and poverty in Chile, built from official sources with R and Power BI.
+DISABILITY IN CHILE: LABOUR AND EDUCATION
 
-Summary: Database and dashboard with macroeconomic indicators from Chile (Inflation, unemployment, GDP and poverty), costructed on R with dat from INE, Chile's Central Bank and the CASEN Survey.
+Descriptive Data Analysis of Labour and Education Data for Disabled population in Chile based on the censuses from 2017 and 2024, as well as the CASEN survey.
 
-Question:  How has inflation, jobs, output and poverty moved together in Chile since 2015, and what changed after the social movements in 2019 and the global pandemic of 2020?
+Questions
 
-Main findings
-- TBD
+    Size and profile. How many people have a disability each year, and how does it vary by type of disability, age, sex, region and socioeconomic level?
+    Education. How do school attendance, attainment and years of schooling differ by disability status, and how has the gap changed?
+    Labour market. Are the employment rate, unemployment rate and inactivity rate different for people with disability, and how have they evolved?
+    Poverty. How many people with disability live in income or multidimensional poverty, and is the difference with people without disability statistically significant?
+    Change over time. What can be said about trends, given that the way disability is measured changed between sources?
 
-
-Data
-- Inflation: (IPC)	INE	Monthly	Jan 2015 - Jun 2026
-- Unemployment rate	INE, Encuesta Nacional de Empleo (ENE)	Monthly, rolling 3 months	
-- GDP (real)	Banco Central de Chile	Quarterly	
-- Poverty	CASEN, Ministerio de Desarrollo Social	Survey years: 
-
+Data Sources 2017 Census 2024 Census 2017 CASEN 2022 CASEN 2024 CASEN
 
 Method
 
@@ -34,14 +30,12 @@ brief/         short report (Spanish, with English summary)
 How to reproduce
 Install R and the tidyverse package.
 Download the files listed in data/data_log.csv into data/raw/.
-Run the scripts in scripts/ in order: [01_clean.R, 02_merge.R, 03_analysis.R].
-Open outputs/[dashboard-file].pbix in Power BI Desktop.
+Run the scripts in scripts/ in order: 
 
 
 Limitations
-CASEN is not an annual survey, so poverty has far fewer observations than the other indicators.
 Relationships shown are descriptive and do not establish causation.
-Updating
+
 
 Author
 Andrea Martínez Rojas. [https://www.linkedin.com/in/andrea-mart%C3%ADnez-rojas-956b88113/]
