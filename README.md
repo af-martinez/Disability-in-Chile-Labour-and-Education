@@ -1,4 +1,7 @@
 ### DISABILITY IN CHILE: LABOUR AND EDUCATION
+## Author
+- Andrea Martínez Rojas. [https://www.linkedin.com/in/andrea-mart%C3%ADnez-rojas-956b88113/]
+## Edited: 25 November 2026
 
 ## Summary
 Descriptive Data Analysis of Labour and Education Data for Disabled population in Chile based on the censuses from 2017 and 2024, as well as the CASEN survey.
@@ -40,5 +43,4 @@ Visualize in Power BI.
 ## Limitations
 - Relationships shown are descriptive and do not establish causation.
 
-## Author
-- Andrea Martínez Rojas. [https://www.linkedin.com/in/andrea-mart%C3%ADnez-rojas-956b88113/]
+
